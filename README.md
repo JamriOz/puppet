@@ -17,7 +17,13 @@ vimrc module is dealing with changing any configration files, it has been set cu
 3 - sshd_config : disabling the root login
 4 - sudoers : allowing becca to sudo 
 
-web
+##users
+
+user module is dealing with creating users and assoicating them to groups
+
+##web
+web module is dealing with configuring template using ERB and ensuring its presents on apache server 
+
 puppetCode/
 ├── debugging 
 │   ├── examples
